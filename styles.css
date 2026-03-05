@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 50px;
+}
+
+#clock {
+    font-size: 150px;
+    color: #000000;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #4230aa;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+button {
+    font-size: 199px;
+    padding: 10px 20px;
+    color: #e90000;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00f134;
+}
