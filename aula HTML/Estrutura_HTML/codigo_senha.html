@@ -17,18 +17,20 @@
             <span>ALBERT EINSTEIN</span>
         </div>
 
-        <h1>Recuperar senha</h1>
+        <h1>Verificação de código</h1>
 
-        <label>Email</label>
-        <input type="email" placeholder="Digite seu email">
+        <p>
+            Digite o código enviado para seu email.
+        </p>
 
-        <a href="codigo_senha.html">
-            <button>Enviar</button>
-        </a>
+        <form action="nova_senha.html">
 
-        <br><br>
+            <label for="codigo">Código</label>
+            <input type="text" id="codigo" placeholder="000000">
 
-        <a href="login.html">Voltar para login</a>
+            <button type="submit">Verificar</button>
+
+        </form>
 
 </body>
 
